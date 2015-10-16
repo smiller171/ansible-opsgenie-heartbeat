@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+  - shell: "curl -XPOST 'https://api.opsgenie.com/v1/json/heartbeat/send' -d '{\"apiKey\": \"{{apikey}}\",\"name\" : \"{{name}}\"}'"

@@ -1,0 +1,3 @@
+vars:  
+- apikey  
+- name  
